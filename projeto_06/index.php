@@ -19,7 +19,7 @@
 				</div><!--icons-social-->
 				<div class="clear"></div>
 				<div class="logo">
-					AndreDev
+					Dredeco
 				</div><!--logo-->
 				<nav class="desktop">
 					<ul>

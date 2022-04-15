@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Foodieland</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lobster&display=swap" rel="stylesheet">    <link href="css/font-awesome.min.css" rel="stylesheet" />
+	<link href="css/styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/97e3dba9c7.js" crossorigin="anonymous"></script>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+    
+</head>
+
+<body>
+
+<!--=============== HEADER =====================-->
+    <header>
+        <div style="display: flex;" class="center">
+        <div class="logo">
+            Foodieland<p>.</p>
+        </div>
+
+        <nav class="nav_menu">
+            <a href="#" class="menu_text">Home</a>
+            <a href="#" class="menu_text">Recipes</a>
+            <a href="#" class="menu_text">Blog</a>
+            <a href="#" class="menu_text">Contact</a>
+            <a href="#" class="menu_text">About us</a>
+        </nav>
+
+        <div class="smedia_menu">
+            <a href="#" class="smedia_icons"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="smedia_icons"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="smedia_icons"><i class="fa fa-instagram"></i></a>
+        </div>
+
+    <!--=============== HEADER MOBILE =====================-->
+        <nav class="nav_menu_mobile">
+        <i onclick="myFunction()" class="fa fa-bars"></i>
+            <div id="hd" class="hd">
+                <a href="#" class="menu_text">Home</a>
+                <a href="#" class="menu_text">Recipes</a>
+                <a href="#" class="menu_text">Blog</a>
+                <a href="#" class="menu_text">Contact</a>
+                <a href="#" class="menu_text">About us</a>
+
+                <div>
+                    <a href="#" class="smedia_icons"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="smedia_icons"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="smedia_icons"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </nav>
+ 
+    </div>
+        
+        <script  src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("hd");
+                 if (x.style.display === "block") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "block";
+                } 
+            }
+        </script>
+    </header>
+
+<!--=============== SLIDER =====================-->
+    <div class="slider center">
+            <div class="slider_wrapper">
+                <div class="slider_box">
+                    <div class="slider_box1">
+                        <div class="tp_recipe">
+                            <i class="fa fa-scroll"></i>
+                            <p>Hot Recipes</p>
+                        </div>
+
+                        <span class="name_recipe">Spicy delicious chicken wings</span>
+
+                        <p class="dsc_recipe">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+
+                        <div class="time_ingredients">
+                            <div class="time_recipe">
+                                <i class="fa fa-clock"></i>
+                                <p>30 Minutes</p>
+                            </div>
+
+                            <div class="ing_recipe">
+                                <i class="fa fa-utensils"></i>
+                                <p>Chicken</p>
+                            </div>
+                        </div> <!-- time_ingredients -->
+
+                        <div class="user_view">
+                            <div class="user_recipe">
+                                <img src="assets/user.png" alt="" class="user_img">
+                                <div class="user_info">
+                                    <span>John Smith</span>
+                                    <p>15 March 2022</p>
+                                </div>
+                            </div>
+                        
+
+                            <a href="#" class="view_recipe">
+                                <p>View Recipes</p>
+                                <i class="fa fa-circle-play"></i>
+                            </a>
+                        </div>
+
+                        <img src="assets/Badge.png" alt="" class="badge">
+
+                    </div> <!--slider_box1-->
+
+                    <div class="slider_box2">
+
+                    </div>
+                </div> <!--slider_box-->
+
+
+                <div class="slider_box">
+                    <div class="slider_box1">
+                        <div class="tp_recipe">
+                            <i class="fa fa-scroll"></i>
+                            <p>Hot Recipes</p>
+                        </div>
+
+                        <span class="name_recipe">Spicy delicious chicken wings</span>
+
+                        <p class="dsc_recipe">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+
+                        <div class="time_ingredients">
+                            <div class="time_recipe">
+                                <i class="fa fa-clock"></i>
+                                <p>30 Minutes</p>
+                            </div>
+
+                            <div class="ing_recipe">
+                                <i class="fa fa-utensils"></i>
+                                <p>Chicken</p>
+                            </div>
+                        </div> <!-- time_ingredients -->
+
+                        <div class="user_view">
+                            <div class="user_recipe">
+                                <img src="assets/user.png" alt="" class="user_img">
+                                <div class="user_info">
+                                    <span>John Smith</span>
+                                    <p>15 March 2022</p>
+                                </div>
+                            </div>
+                        
+
+                            <a href="#" class="view_recipe">
+                                <p>View Recipes</p>
+                                <i class="fa fa-circle-play"></i>
+                            </a>
+                        </div>
+
+                        <img src="assets/Badge.png" alt="" class="badge">
+
+                    </div> <!--slider_box1-->
+
+                    <div class="slider_box2">
+
+                    </div>
+                </div> <!--slider_box-->
+            </div> <!--slider_wrapper-->            
+    </div> <!--slider-->
+
+<!--=============== CATEGORIES =====================-->
+    <section class="categories center">
+        <div class="categories_header">
+            <h2>Categories</h2>
+            <a href="" class="more_categories">View All Categories</a>
+        </div>
+
+        <section class="categories_wrapper">
+            <div class="categories_single">
+                <img src="./assets/img_cat.png" alt="" class="img_categorie">
+                <p>Breakfast</p>
+            </div>
+
+            <div class="categories_single">
+                <img src="./assets/img_cat.png" alt="" class="img_categorie">
+                <p>Breakfast</p>
+            </div>
+
+            <div class="categories_single">
+                <img src="./assets/img_cat.png" alt="" class="img_categorie">
+                <p>Breakfast</p>
+            </div>
+
+            <div class="categories_single">
+                <img src="./assets/img_cat.png" alt="" class="img_categorie">
+                <p>Breakfast</p>
+            </div>
+
+            <div class="categories_single">
+                <img src="./assets/img_cat.png" alt="" class="img_categorie">
+                <p>Breakfast</p>
+            </div>
+
+            <div class="categories_single">
+                <img src="./assets/img_cat.png" alt="" class="img_categorie">
+                <p>Breakfast</p>
+            </div>
+
+        </section>
+
+    </section>
+
+<!--=============== MORE RECIPES =====================-->
+    <section class="more_recipes center">
+        <div class="recipes_title">
+            <h2>Simple and tasty recipes</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+        </div>
+
+        <div class="recipe_wrapper">
+            <div class="recipe_box">
+                <img src="./assets/image 26.png" alt="">
+                <p>
+                    Big and Juicy Wagyu Beef Cheeseburger
+                </p>
+
+                <div class="time_ingredients_rb">
+                    <div class="time_recipe_rb">
+                        <i class="fa fa-clock"></i>
+                        <p>30 Minutes</p>
+                    </div>
+
+                    <div class="ing_recipe_rb">
+                        <i class="fa fa-utensils"></i>
+                        <p>Chicken</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe_box">
+                <img src="./assets/image 26.png" alt="">
+                <p>
+                    Big and Juicy Wagyu Beef Cheeseburger
+                </p>
+
+                <div class="time_ingredients_rb">
+                    <div class="time_recipe_rb">
+                        <i class="fa fa-clock"></i>
+                        <p>30 Minutes</p>
+                    </div>
+
+                    <div class="ing_recipe_rb">
+                        <i class="fa fa-utensils"></i>
+                        <p>Chicken</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe_box">
+                <img src="./assets/image 26.png" alt="">
+                <p>
+                    Big and Juicy Wagyu Beef Cheeseburger
+                </p>
+
+                <div class="time_ingredients_rb">
+                    <div class="time_recipe_rb">
+                        <i class="fa fa-clock"></i>
+                        <p>30 Minutes</p>
+                    </div>
+
+                    <div class="ing_recipe_rb">
+                        <i class="fa fa-utensils"></i>
+                        <p>Chicken</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="recipe_wrapper">
+            <div class="recipe_box">
+                <img src="./assets/image 26.png" alt="">
+                <p>
+                    Big and Juicy Wagyu Beef Cheeseburger
+                </p>
+
+                <div class="time_ingredients_rb">
+                    <div class="time_recipe_rb">
+                        <i class="fa fa-clock"></i>
+                        <p>30 Minutes</p>
+                    </div>
+
+                    <div class="ing_recipe_rb">
+                        <i class="fa fa-utensils"></i>
+                        <p>Chicken</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe_box">
+                <img src="./assets/image 26.png" alt="">
+                <p>
+                    Big and Juicy Wagyu Beef Cheeseburger
+                </p>
+
+                <div class="time_ingredients_rb">
+                    <div class="time_recipe_rb">
+                        <i class="fa fa-clock"></i>
+                        <p>30 Minutes</p>
+                    </div>
+
+                    <div class="ing_recipe_rb">
+                        <i class="fa fa-utensils"></i>
+                        <p>Chicken</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe_box">
+                <img src="./assets/image 26.png" alt="">
+                <p>
+                    Big and Juicy Wagyu Beef Cheeseburger
+                </p>
+
+                <div class="time_ingredients_rb">
+                    <div class="time_recipe_rb">
+                        <i class="fa fa-clock"></i>
+                        <p>30 Minutes</p>
+                    </div>
+
+                    <div class="ing_recipe_rb">
+                        <i class="fa fa-utensils"></i>
+                        <p>Chicken</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="recipe_wrapper">
+            <div class="recipe_box">
+                <img src="./assets/image 26.png" alt="">
+                <p>
+                    Big and Juicy Wagyu Beef Cheeseburger
+                </p>
+
+                <div class="time_ingredients_rb">
+                    <div class="time_recipe_rb">
+                        <i class="fa fa-clock"></i>
+                        <p>30 Minutes</p>
+                    </div>
+
+                    <div class="ing_recipe_rb">
+                        <i class="fa fa-utensils"></i>
+                        <p>Chicken</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe_box">
+                <img src="./assets/image 26.png" alt="">
+                <p>
+                    Big and Juicy Wagyu Beef Cheeseburger
+                </p>
+
+                <div class="time_ingredients_rb">
+                    <div class="time_recipe_rb">
+                        <i class="fa fa-clock"></i>
+                        <p>30 Minutes</p>
+                    </div>
+
+                    <div class="ing_recipe_rb">
+                        <i class="fa fa-utensils"></i>
+                        <p>Chicken</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe_box">
+                <img src="./assets/image 26.png" alt="">
+                <p>
+                    Big and Juicy Wagyu Beef Cheeseburger
+                </p>
+
+                <div class="time_ingredients_rb">
+                    <div class="time_recipe_rb">
+                        <i class="fa fa-clock"></i>
+                        <p>30 Minutes</p>
+                    </div>
+
+                    <div class="ing_recipe_rb">
+                        <i class="fa fa-utensils"></i>
+                        <p>Chicken</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<footer>
+
+</footer>
+
+</html>
